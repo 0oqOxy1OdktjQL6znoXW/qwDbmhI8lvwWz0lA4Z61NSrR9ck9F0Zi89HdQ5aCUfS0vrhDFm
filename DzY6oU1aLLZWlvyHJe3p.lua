@@ -9,7 +9,7 @@ local UILibrary ={
 }
 
 for i,v in next,game.CoreGui:GetChildren() do
-	if v.Name == "Library" then
+	if v.Name == "Simple Hub" then
 		v:Destroy()
 	end
 end
