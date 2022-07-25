@@ -32,7 +32,7 @@ function UILibrary.Main(PrjName,HideKey)
 
 	--Properties:
 
-	Library.Name = "Library"
+	Library.Name = "Simple Hub"
 	Library.Parent = game.CoreGui
 	Library.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -94,7 +94,7 @@ function UILibrary.Main(PrjName,HideKey)
 	ButtonsTab.Parent = LeftPart
 	ButtonsTab.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 	ButtonsTab.BorderSizePixel = 0
-	ButtonsTab.Position = UDim2.new(0, 0, 0.184829056, 40)
+	ButtonsTab.Position = UDim2.new(0, 0, 0, 40)
 	ButtonsTab.Size = UDim2.new(0, 218, 0, 410)
 
 	List.Name = "List"
